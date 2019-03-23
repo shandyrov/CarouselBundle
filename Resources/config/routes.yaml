@@ -1,6 +1,6 @@
 admin_plugins_carousel_index:
   path: /admin/plugins/carousel
-  controller: App\Sputnik\CarouselBundle\Controller\Backend\GeneralController::index
+  controller: Sputnik\CarouselBundle\Controller\Backend\GeneralController::index
 
 #blog_list:
 #  path: /blog/list/{page}
