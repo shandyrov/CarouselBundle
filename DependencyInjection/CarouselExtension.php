@@ -1,5 +1,5 @@
 <?php
-namespace App\Sputnik\CarouselBundle\DependencyInjection;
+namespace Sputnik\CarouselBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
