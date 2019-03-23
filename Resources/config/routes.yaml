@@ -1,0 +1,19 @@
+admin_plugins_carousel_index:
+  path: /admin/plugins/carousel
+  controller: App\Sputnik\CarouselBundle\Controller\Backend\GeneralController::index
+
+#blog_list:
+#  path: /blog/list/{page}
+#  controller: App\Sputnik\DevBundle\Controller\Frontend\GeneralController::blogList
+#  defaults:
+#    page: 1
+#  requirements:
+#      parameter: \d+
+
+#extraRoute2:
+#  path: /extra/super/{parameter}
+#  controller: App\Sputnik\DevBundle\Controller\Frontend\GeneralController::index
+#  requirements:
+#      parameter: \d+
+
+

@@ -1,0 +1,31 @@
+{
+    "name" : "shandyrov/carouselbundle",
+    "description" : "Carousel bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "askar",
+        "email" : "shandyrov@gmail.com"
+    }],
+    "keywords" : [
+        "carousel bundle" 
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {    
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Sputnik\\CarouselBundle" : ""
+        }
+    },
+    "target-dir" : "Sputnik/CarouselBundle",
+    "repositories":[{
+      
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "0.1-dev"  
+        }
+    }
+}

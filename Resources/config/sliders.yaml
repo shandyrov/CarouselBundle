@@ -1,0 +1,10 @@
+slider-main:
+  - label: lorem ipsum1
+    title: lorem ipsum1
+    image: lorem1.jpg
+  - label: lorem ipsum2
+    title: lorem ipsum2
+    image: lorem2.jpg
+  - label: lorem ipsum3
+    title: lorem ipsum3
+    image: lorem3.jpg

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:twig="http://symfony.com/schema/dic/twig">
+
+    <!--<twig:config debug="%kernel.debug%" strict-variables="%kernel.debug%">-->
+        <!--<twig:path namespace="shards">%kernel.root_dir%/../src/Sputnik/CarouselBundle/Resources/views/templates/backend/shards</twig:path>-->
+    <!--</twig:config>-->
+</container>
