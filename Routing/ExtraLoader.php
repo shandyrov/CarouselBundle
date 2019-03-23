@@ -1,5 +1,5 @@
 <?php
-namespace App\Sputnik\CarouselBundle\Routing;
+namespace Sputnik\CarouselBundle\Routing;
 
 use Symfony\Component\Config\Loader\Loader;
 use Symfony\Component\Routing\RouteCollection;
