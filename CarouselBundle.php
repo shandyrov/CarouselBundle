@@ -1,5 +1,5 @@
 <?php
-namespace App\Sputnik\CarouselBundle;
+namespace Sputnik\CarouselBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
