@@ -11,7 +11,7 @@
             <tag name="theme.manager"/>       
         </service>
                
-        <service id="App\Sputnik\Service\ThemeManager">
+        <service id="App\Sputnik\Service\ThemeManager" alias="sputnik.theme_manager">
             <tag name="theme.manager"/>       
         </service>       
                
