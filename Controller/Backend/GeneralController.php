@@ -1,7 +1,7 @@
 <?php
 namespace Sputnik\CarouselBundle\Controller\Backend;
 
-use App\Sputnik\Services\ThemeManager;
+use App\Sputnik\Service\ThemeManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
