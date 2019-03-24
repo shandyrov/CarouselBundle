@@ -12,7 +12,6 @@
         </service>
                
         <service id="App\Sputnik\Service\ThemeManager" alias="sputnik.theme_manager">
-            <tag name="theme.manager"/>       
         </service>       
                
         <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
