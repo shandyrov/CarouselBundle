@@ -39,7 +39,7 @@ class CarouselExtension extends Extension implements PrependExtensionInterface
      */
     public function load(array $configs, ContainerBuilder $container)
     {
-        var_dump(['ok3']);die;
+        //var_dump(['ok3']);die;
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
