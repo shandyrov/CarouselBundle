@@ -1,6 +1,6 @@
-#backend_extra:
-# resource: .
-# type: backend_extra
+backend_extra:
+ resource: .
+ type: backend_extra
  
 admin_plugins_carousel_index:
   path: /admin/plugins/carousel
@@ -13,11 +13,4 @@ admin_plugins_carousel_index:
 #    page: 1
 #  requirements:
 #      parameter: \d+
-
-#extraRoute2:
-#  path: /extra/super/{parameter}
-#  controller: App\Sputnik\DevBundle\Controller\Frontend\GeneralController::index
-#  requirements:
-#      parameter: \d+
-
 
