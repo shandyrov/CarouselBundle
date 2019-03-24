@@ -14,7 +14,7 @@ class ExtraLoader extends Loader
         if (true === $this->loaded) {
             throw new \RuntimeException('Do not add "extra" loader twice');
         }
-        var_dump(['ok2']);die;
+        
         $routes = new RouteCollection();
         $route =$this->import('@CarouselBundle/Resources/config/routes.yaml', 'yaml');
         $routes->addCollection($route);
