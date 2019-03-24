@@ -16,7 +16,7 @@
     },
     "autoload" : {
         "psr-0" : {
-            "Sputnik\\CarouselBundle\\" : "vendor/shandyrov/carouselbundle/Sputnik/CarouselBundle/"
+            "Sputnik\\CarouselBundle\\" : ""
         }
     },
     "target-dir" : "Sputnik/CarouselBundle",
