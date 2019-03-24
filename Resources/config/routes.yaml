@@ -1,3 +1,7 @@
+backend_extra:
+ resource: .
+ type: backend_extra
+ 
 admin_plugins_carousel_index:
   path: /admin/plugins/carousel
   controller: Sputnik\CarouselBundle\Controller\Backend\GeneralController::index
