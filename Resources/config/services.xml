@@ -7,7 +7,7 @@
     <services>
         <!-- ... -->
 
-        <service id="sputnik_carousel.routing_loader" class="App\Sputnik\CarouselBundle\Routing\ExtraLoader">
+        <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
             <tag name="routing.loader"/>
         </service>
     </services>
