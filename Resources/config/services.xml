@@ -7,9 +7,7 @@
     <services>
         <!-- ... -->
 
-        <service id="sputnik.theme_manager" class="Sputnik\Services\ThemeManager">
-           
-        </service>
+        <!-- <service id="sputnik.theme_manager" class="Sputnik\Services\ThemeManager"></service> -->
                
         <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
             <tag name="routing.loader"/>
