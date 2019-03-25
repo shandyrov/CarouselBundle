@@ -10,5 +10,6 @@
         <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
             <tag name="routing.loader"/>
         </service>
+<!-- <service id="sputnik_controller" class="Sputnik\CarouselBundle\Controller\GeneralController"></service> -->
     </services>
 </container>
