@@ -1,7 +1,7 @@
 <?php
 namespace Sputnik\CarouselBundle\Controller\Backend;
 
-use Sputnik\TemplateBundle\Service\ThemeManager;
+use Sputnik\TemplateBundle\Service\TemplateManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -10,7 +10,7 @@ class GeneralController extends AbstractController
 
     private $themeManager;
 
-    public function __construct(ThemeManager $themeManager)
+    public function __construct(TemplateManager $themeManager)
     {
         $this->themeManager = $themeManager;
     }
