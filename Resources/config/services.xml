@@ -8,7 +8,7 @@
         <!-- ... -->
         <service id="sputnik.theme_manager" class="App\Service\ThemeManager"  autowire="true"></service>
 
-        <service id="sputnik_controller" class="Sputnik\CarouselBundle\Controller\GeneralController" autowire="true">
+        <service id="sputnik_controller" class="Sputnik\CarouselBundle\Controller\Backend\GeneralController" autowire="true">
             <tag name="service" id="sputnik.theme_manager"/>
         </service>
                
