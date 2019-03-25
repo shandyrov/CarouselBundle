@@ -1,20 +1,18 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <container xmlns="http://symfony.com/schema/dic/services"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://symfony.com/schema/dic/services
-        https://symfony.com/schema/dic/services/services-1.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services
+        http://symfony.com/schema/dic/services/services-1.0.xsd">
 
+    <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
+        <tag name="routing.loader"/>
+    </service>       
+           
     <services>
-        <!-- ... -->
-        <service id="sputnik.theme_manager" class="App\Service\ThemeManager"  autowire="true"></service>
+        <!-- Default configuration for services in *this* file -->
+        <defaults autowire="true" autoconfigure="true" public="false" />
 
-        <service id="sputnik_controller" class="Sputnik\CarouselBundle\Controller\Backend\GeneralController" autowire="true">
-            <tag name="service" id="sputnik.theme_manager"/>
-        </service>
-               
-        <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
-            <tag name="routing.loader"/>
-        </service>
-<!-- <service id="sputnik_controller" class="Sputnik\CarouselBundle\Controller\GeneralController"></service> -->
+        <!-- Load services from whatever directories you want (you can update this!) -->
+        <prototype namespace="CarouselBundle\CarouselBundle\" resource="../../../CarouselBundle/*" exclude="../../../CarouselBundle/{Entity,Repository}" />
     </services>
 </container>
