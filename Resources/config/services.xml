@@ -6,6 +6,9 @@
 
     <services>
         <!-- ... -->
+         <service id="sputnik_controller" class="App\Service\ThemeManager" autowire="true">
+
+        </service>
                
         <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
             <tag name="routing.loader"/>
