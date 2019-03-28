@@ -8,11 +8,11 @@ use Symfony\Component\HttpFoundation\Response;
 class GeneralController extends AbstractController
 {
 
-    private $themeManager;
+    private $templateManager;
 
     public function __construct(TemplateManager $templateManager)
     {
-        $this->themeManager = $templateManager;
+        $this->templateManager = $templateManager;
     }
 
 
