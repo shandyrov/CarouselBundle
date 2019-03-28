@@ -10,15 +10,15 @@ class GeneralController extends AbstractController
 
     private $themeManager;
 
-    public function __construct(TemplateManager $themeManager)
+    public function __construct(TemplateManager $templateManager)
     {
-        $this->themeManager = $themeManager;
+        $this->themeManager = $templateManager;
     }
 
 
     public function index()
     {
-        return $this->render('@Carousel/templates/'.$this->themeManager->getCurrentBackend().'/index.html.twig');
+        return $this->render('@Carousel/templates/'.$this->templateManager->getCurrentBackend().'/index.html.twig');
     }
 
 }
