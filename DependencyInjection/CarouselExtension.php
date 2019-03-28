@@ -7,19 +7,8 @@ use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
-class CarouselExtension extends Extension implements PrependExtensionInterface
+class CarouselExtension extends Extension
 {
-
-    /**
-     * @param ContainerBuilder $container
-     */
-    public function prepend(ContainerBuilder $container)
-    {
-        #$config = Yaml::parse(file_get_contents(__DIR__.'/../Resources/config/routes.yaml'));
-        #foreach ($config as $key => $configuration) {
-        #    $container->prependExtensionConfig($key, $configuration);
-        #}
-    }
 
     public function getAlias()
     {
@@ -47,6 +36,5 @@ class CarouselExtension extends Extension implements PrependExtensionInterface
             new FileLocator(__DIR__.'/../Resources/config')
         );
         $loader->load('services.xml');
-        //$loader->load('config.xml');
     }
 }
