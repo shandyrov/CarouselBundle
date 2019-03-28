@@ -7,10 +7,6 @@
         <!-- Default configuration for services in *this* file -->
         <defaults autowire="true" autoconfigure="true" public="false" />
         <!-- Load services from whatever directories you want (you can update this!) -->
-        <prototype namespace="Sputnik\CarouselBundle\" resource="../../../CarouselBundle/*" exclude="../../../CarouselBundle/{Entity,Repository}" />
-    
-        <service id="sputnik_carousel.routing_loader" class="Sputnik\CarouselBundle\Routing\ExtraLoader">
-            <tag name="routing.loader"/>
-        </service> 
+        <prototype namespace="Sputnik\CarouselBundle\" resource="../../../CarouselBundle/*" exclude="../../../CarouselBundle/{Entity,Repository}" /> 
     </services>
 </container>
