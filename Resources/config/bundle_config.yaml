@@ -1,0 +1,14 @@
+bundle_config:
+  type: plugin
+  locale:
+        en:
+            name: Carousel
+            description: Carousel Description
+        ru:
+            name: Карусель
+            description: Описание карусели
+        kk:
+            name: Карусель
+            description: Карусель сипаттамасы
+
+  default_path: admin_plugins_carousel_index
